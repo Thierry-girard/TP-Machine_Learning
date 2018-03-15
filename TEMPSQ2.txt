@@ -1,0 +1,126 @@
+Taille de l'échantillon :  5000
+Classifieur Bayésien gaussien classique
+START
+---  16.763829708099365  seconds ---
+END
+Taux d'erreur :  0.3976
+
+Classifieur Bayésien ACP de taille  0
+START
+---  5.335049629211426  seconds ---
+END
+Taux d'erreur :  0.9
+
+Classifieur Bayésien ACP de taille  10
+START
+---  1.4941916465759277  seconds ---
+END
+Taux d'erreur :  0.468
+
+Classifieur Bayésien ACP de taille  20
+START
+---  1.7635021209716797  seconds ---
+END
+Taux d'erreur :  0.231
+
+Classifieur Bayésien ACP de taille  30
+START
+---  1.9933135509490967  seconds ---
+END
+Taux d'erreur :  0.1738
+
+Classifieur Bayésien ACP de taille  40
+START
+---  2.249635696411133  seconds ---
+END
+Taux d'erreur :  0.1534
+
+Classifieur Bayésien ACP de taille  50
+START
+---  2.507551670074463  seconds ---
+END
+Taux d'erreur :  0.1412
+
+Classifieur Bayésien ACP de taille  100
+START
+---  3.179340124130249  seconds ---
+END
+Taux d'erreur :  0.1646
+
+Classifieur Bayésien ACP de taille  150
+START
+---  4.738854885101318  seconds ---
+END
+Taux d'erreur :  0.1952
+
+Classifieur Bayésien ACP de taille  200
+START
+---  6.167892694473267  seconds ---
+END
+Taux d'erreur :  0.2218
+
+Classifieur Bayésien ACP de taille  250
+START
+---  7.990374565124512  seconds ---
+END
+Taux d'erreur :  0.247
+
+Classifieur Bayésien ACP de taille  300
+START
+---  10.083940505981445  seconds ---
+END
+Taux d'erreur :  0.266
+
+Classifieur Bayésien ACP de taille  350
+START
+---  12.599349737167358  seconds ---
+END
+Taux d'erreur :  0.287
+
+Classifieur Bayésien ACP de taille  400
+START
+---  15.217631816864014  seconds ---
+END
+Taux d'erreur :  0.3018
+
+Classifieur Bayésien ACP de taille  450
+START
+---  17.61765432357788  seconds ---
+END
+Taux d'erreur :  0.3166
+
+Classifieur Bayésien ACP de taille  500
+START
+---  20.648831129074097  seconds ---
+END
+Taux d'erreur :  0.3294
+
+Classifieur Bayésien ACP de taille  550
+START
+---  23.078797101974487  seconds ---
+END
+Taux d'erreur :  0.3438
+
+Classifieur Bayésien ACP de taille  600
+START
+---  26.42410659790039  seconds ---
+END
+Taux d'erreur :  0.3556
+
+Classifieur Bayésien ACP de taille  650
+START
+---  17.050031423568726  seconds ---
+END
+Taux d'erreur :  0.3698
+
+Classifieur Bayésien ACP de taille  700
+START
+---  19.007102251052856  seconds ---
+END
+Taux d'erreur :  0.3846
+
+Classifieur Bayésien ACP de taille  750
+START
+---  20.745485305786133  seconds ---
+END
+Taux d'erreur :  0.396
