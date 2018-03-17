@@ -5,6 +5,7 @@ from sklearn.decomposition import PCA
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import preprocessing
+from sklearn.metrics import confusion_matrix
 
 
 """ Question 1 """
@@ -142,22 +143,27 @@ def Question3_A(Xapp, Yapp, Xdev, Ydev):
 
     teList = []
     timeList = []
-    sizeList = [i for i in range(0,50,10)]+[i for i in range(50,Xapp.shape[1],50)]
+    sizeList = [i for i in range(40,50,10)]+[i for i in range(50,Xapp.shape[1],50)]
 
     for size in sizeList:
         start_time = time()
-        #Scaling des données pour le SVM
-        pca = PCA(50)
-        pca.fit(Xapp)
-        XappPCA = pca.transform(Xapp)
-        #Scaling des données pour le SVM
-        X = preprocessing.scale(pca.transform(Xdev))
-        Y = Ydev
         print("Taille de l'échantillon : ", X.shape[0])
         print("Classifieur Support Vector Machines, ACP de taille ",size)
 
+        pca = PCA(size)
+        pca.fit(Xapp)
+        print("ICI 1, ", time() - start_time)
+        #Scaling des données pour le SVM
+        XappPCA = preprocessing.scale(pca.transform(Xapp))        
+        print("ICI 2, ", time() - start_time)
+        #Scaling des données pour le SVM
+        X = preprocessing.scale(pca.transform(Xdev))
+        print("ICI 3, ", time() - start_time)
+        Y = Ydev
         clf = SVC(C=100000000,cache_size=4000)
-        clf.fit(preprocessing.scale(XappPCA), Yapp) 
+        print("ICI 4, ", time() - start_time)
+        clf.fit(XappPCA, Yapp)
+        print("ICI 5, ", time() - start_time)
 
         print("START")
         erreur = 0
@@ -224,12 +230,12 @@ def Question3_B(Xapp, Yapp, Xdev, Ydev):
 
     teList = []
     timeList = []
-    sizeList = [i for i in range(0,50,10)]+[i for i in range(50,Xapp.shape[1],50)]
+    sizeList = [i for i in range(10,50,10)]+[i for i in range(50,Xapp.shape[1],50)]
 
     for size in sizeList:
         start_time = time()
 
-        pca = PCA(50)
+        pca = PCA(size)
         pca.fit(Xapp)        
         XappPCA = pca.transform(Xapp)
 
@@ -239,7 +245,7 @@ def Question3_B(Xapp, Yapp, Xdev, Ydev):
         print("Classifieur plus proches voisins, ACP de taille ",size)
 
         neigh = KNeighborsClassifier(n_jobs=-1)
-        neigh.fit(X,Y) 
+        neigh.fit(XappPCA,Yapp) 
 
         print("START")
         erreur = 0
@@ -278,7 +284,7 @@ def Question3_B(Xapp, Yapp, Xdev, Ydev):
     fig.savefig("question3_B.png")
 
 
-""" Main :P """
+##################################### Main :P #####################################
 
 Xapp = np.load('../data/trn_img.npy')
 Yapp = np.load('../data/trn_lbl.npy')
@@ -290,5 +296,54 @@ Xtest = np.load('../data/tst_img.npy')
 
 #Question1_2(Xapp, Yapp, Xdev, Ydev)
 #Question3_A(Xapp, Yapp, Xdev, Ydev)
-Question3_B(Xapp, Yapp, Xdev, Ydev)
+#Question3_B(Xapp, Yapp, Xdev, Ydev)
 
+
+### Conclusion ###
+
+
+start_time = time()
+print("Classifieur Bayésien ACP de taille 50 sur le jeux de développement")
+pca = PCA(50)
+pca.fit(Xapp)
+XappPCA = pca.transform(Xapp)
+X = pca.transform(Xdev)
+Y = Ydev
+appArrayPCA = Apprentissage(XappPCA,Yapp)
+
+print("START")
+erreur = 0
+result = []
+
+for i in range(0,X.shape[0]):
+    result.append(BayesEvaluation(X[i], appArrayPCA))
+    if(result[i] != Y[i]):
+        erreur+=1
+ti = (time() - start_time)
+print("--- " , ti," seconds ---")
+print("END")
+te = (erreur/X.shape[0])
+print("Taux d'erreur : ", te, "\n")
+
+print("Matrice de confusion du meilleur système : \n")
+print(confusion_matrix(Y, result),"\n\n")
+
+
+print("Classifieur Bayésien ACP de taille 50 sur le jeux de test")
+start_time = time()
+pca = PCA(50)
+pca.fit(Xapp)
+XappPCA = pca.transform(Xapp)
+X = pca.transform(Xtest)
+appArrayPCA = Apprentissage(XappPCA,Yapp)
+
+print("START")
+result = []
+
+for i in range(0,X.shape[0]):
+    result.append(BayesEvaluation(X[i], appArrayPCA))
+
+ti = (time() - start_time)
+print("--- " , ti," seconds ---")
+np.save("test.npy",result)
+print("END")

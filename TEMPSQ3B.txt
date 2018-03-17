@@ -1,146 +1,139 @@
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins
 START
----  75.26690745353699  seconds ---
+---  77.83204102516174  seconds ---
 END
 Taux d'erreur :  0.3416
 
 Taille de l'échantillon :  5000
-Classifieur plus proches voisins, ACP de taille  0
-START
----  2.845360517501831  seconds ---
-END
-Taux d'erreur :  0.2792
-
-Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  10
 START
----  2.7378804683685303  seconds ---
+---  1.9526033401489258  seconds ---
 END
-Taux d'erreur :  0.2792
+Taux d'erreur :  0.5442
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  20
 START
----  2.734111785888672  seconds ---
+---  3.1305108070373535  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.3792
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  30
 START
----  2.7480931282043457  seconds ---
+---  4.237441301345825  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.3472
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  40
 START
----  2.716978073120117  seconds ---
+---  5.264406681060791  seconds ---
 END
-Taux d'erreur :  0.2788
+Taux d'erreur :  0.3314
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  50
 START
----  2.736769199371338  seconds ---
+---  6.137029647827148  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.336
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  100
 START
----  2.7184906005859375  seconds ---
+---  9.753734827041626  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.3358
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  150
 START
----  2.722506284713745  seconds ---
+---  13.309354305267334  seconds ---
 END
-Taux d'erreur :  0.2784
+Taux d'erreur :  0.338
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  200
 START
----  2.7266979217529297  seconds ---
+---  15.159810304641724  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.3402
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  250
 START
----  2.7187395095825195  seconds ---
+---  19.81772804260254  seconds ---
 END
-Taux d'erreur :  0.2788
+Taux d'erreur :  0.3402
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  300
 START
----  2.717282772064209  seconds ---
+---  25.604769706726074  seconds ---
 END
-Taux d'erreur :  0.2786
+Taux d'erreur :  0.34
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  350
 START
----  2.7415218353271484  seconds ---
+---  27.725552320480347  seconds ---
 END
-Taux d'erreur :  0.2792
+Taux d'erreur :  0.3406
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  400
 START
----  2.7208168506622314  seconds ---
+---  30.205439805984497  seconds ---
 END
-Taux d'erreur :  0.2796
+Taux d'erreur :  0.3406
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  450
 START
----  2.730656147003174  seconds ---
+---  32.890950202941895  seconds ---
 END
-Taux d'erreur :  0.2788
+Taux d'erreur :  0.3412
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  500
 START
----  2.724825382232666  seconds ---
+---  36.18436121940613  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.341
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  550
 START
----  2.717801094055176  seconds ---
+---  38.47417449951172  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.3408
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  600
 START
----  2.7178449630737305  seconds ---
+---  42.09123778343201  seconds ---
 END
-Taux d'erreur :  0.279
+Taux d'erreur :  0.341
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  650
 START
----  2.7386491298675537  seconds ---
+---  33.30479621887207  seconds ---
 END
-Taux d'erreur :  0.2796
+Taux d'erreur :  0.3412
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  700
 START
----  2.8046841621398926  seconds ---
+---  35.52594232559204  seconds ---
 END
-Taux d'erreur :  0.2784
+Taux d'erreur :  0.3412
 
 Taille de l'échantillon :  5000
 Classifieur plus proches voisins, ACP de taille  750
 START
----  2.711704969406128  seconds ---
+---  37.31281042098999  seconds ---
 END
-Taux d'erreur :  0.2792
+Taux d'erreur :  0.3412

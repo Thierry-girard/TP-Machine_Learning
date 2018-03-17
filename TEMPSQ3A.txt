@@ -1,146 +1,118 @@
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines
 START
----  477.33256459236145  seconds ---
+---  437.3467857837677  seconds ---
 END
 Taux d'erreur :  0.161
 
 Taille de l'échantillon :  5000
-Classifieur Support Vector Machines, ACP de taille  0
-START
----  102.43250179290771  seconds ---
-END
-Taux d'erreur :  0.1492
-
-Taille de l'échantillon :  5000
-Classifieur Support Vector Machines, ACP de taille  10
-START
----  102.66001534461975  seconds ---
-END
-Taux d'erreur :  0.1492
-
-Taille de l'échantillon :  5000
-Classifieur Support Vector Machines, ACP de taille  20
-START
----  97.95865225791931  seconds ---
-END
-Taux d'erreur :  0.1506
-
-Taille de l'échantillon :  5000
-Classifieur Support Vector Machines, ACP de taille  30
-START
----  97.00242376327515  seconds ---
-END
-Taux d'erreur :  0.1488
-
-Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  40
 START
----  96.69481015205383  seconds ---
+---  66.97347378730774  seconds ---
 END
-Taux d'erreur :  0.149
+Taux d'erreur :  0.1476
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  50
 START
----  95.54610538482666  seconds ---
+---  89.29045462608337  seconds ---
 END
-Taux d'erreur :  0.1478
+Taux d'erreur :  0.1488
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  100
 START
----  95.5163905620575  seconds ---
+---  165.4389705657959  seconds ---
 END
-Taux d'erreur :  0.149
+Taux d'erreur :  0.1728
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  150
 START
----  95.25443959236145  seconds ---
+---  263.78753995895386  seconds ---
 END
-Taux d'erreur :  0.1484
+Taux d'erreur :  0.2056
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  200
 START
----  94.85795140266418  seconds ---
+---  403.2564787864685  seconds ---
 END
-Taux d'erreur :  0.148
+Taux d'erreur :  0.234
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  250
 START
----  95.35593056678772  seconds ---
+---  570.0533833503723  seconds ---
 END
-Taux d'erreur :  0.1486
+Taux d'erreur :  0.2732
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  300
 START
----  95.50524830818176  seconds ---
+---  679.0589156150818  seconds ---
 END
-Taux d'erreur :  0.149
+Taux d'erreur :  0.3102
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  350
 START
----  95.08757758140564  seconds ---
+---  784.751259803772  seconds ---
 END
-Taux d'erreur :  0.1484
+Taux d'erreur :  0.3512
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  400
 START
----  94.80884957313538  seconds ---
+---  900.9772419929504  seconds ---
 END
-Taux d'erreur :  0.1488
+Taux d'erreur :  0.4014
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  450
 START
----  96.9130871295929  seconds ---
+---  1010.339864730835  seconds ---
 END
-Taux d'erreur :  0.1484
+Taux d'erreur :  0.4546
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  500
 START
----  96.60743355751038  seconds ---
+---  1100.137279033661  seconds ---
 END
-Taux d'erreur :  0.1484
+Taux d'erreur :  0.49
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  550
 START
----  95.72170829772949  seconds ---
+---  1196.784755706787  seconds ---
 END
-Taux d'erreur :  0.1486
+Taux d'erreur :  0.5298
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  600
 START
----  95.61668252944946  seconds ---
+---  1299.884600162506  seconds ---
 END
-Taux d'erreur :  0.1488
+Taux d'erreur :  0.5696
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  650
 START
----  95.03363156318665  seconds ---
+---  1370.41450881958  seconds ---
 END
-Taux d'erreur :  0.1488
+Taux d'erreur :  0.603
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  700
 START
----  94.77640533447266  seconds ---
+---  1471.9102096557617  seconds ---
 END
-Taux d'erreur :  0.148
+Taux d'erreur :  0.625
 
 Taille de l'échantillon :  5000
 Classifieur Support Vector Machines, ACP de taille  750
 START
----  94.57846236228943  seconds ---
+---  1549.8123395442963  seconds ---
 END
-Taux d'erreur :  0.1496
+Taux d'erreur :  0.6548
